@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import text from '../constants/english.json';
 
 const TitleText = styled.h1`
+  margin-top: 20px;
   width: 100%;
   display: flex;
   flex-direction: row;

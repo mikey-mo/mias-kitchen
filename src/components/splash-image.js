@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import PastaOne from '../assets/header-images/pasta_one.jpg';
 import PastaTwo from '../assets/header-images/pasta_two.jpg';
 import ChickenOne from '../assets/header-images/chicken_one.jpg';
+import TacosOne from '../assets/header-images/tacos_one.jpg';
 
 const ImageContainer = styled.section`
   width: 100%;
@@ -16,7 +17,7 @@ const ImageContainer = styled.section`
 `;
 
 const RandomizeImageDisplay = () => {
-  const potentialImages = [PastaOne, PastaTwo, ChickenOne];
+  const potentialImages = [PastaOne, PastaTwo, ChickenOne, TacosOne];
   const randomImage = Math.floor(Math.random() * ((potentialImages.length) - 0)) + 0;
   const image = potentialImages[randomImage];
   return (
