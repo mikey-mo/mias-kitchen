@@ -22,7 +22,7 @@ const Title = () => (
   <TitleText>
     <img
       src={ChefLogo}
-      style={{ position: 'relative', right: '50px', width: '300px' }}
+      style={{ position: 'relative', right: '50px', width: '200px' }}
     />
     {text.header.title}
   </TitleText>
