@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import text from '../constants/english.json';
+import ChefLogo from '../assets/logos/chef_logo_one.jpg';
 
 const TitleText = styled.h1`
   margin-top: 20px;
@@ -19,6 +20,10 @@ const TitleText = styled.h1`
 
 const Title = () => (
   <TitleText>
+    <img
+      src={ChefLogo}
+      style={{ position: 'relative', right: '50px', width: '300px' }}
+    />
     {text.header.title}
   </TitleText>
 );
