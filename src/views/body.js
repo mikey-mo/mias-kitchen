@@ -9,12 +9,18 @@ const BodyContainer = styled.section`
   padding: 0;
   display: flex;
   flex-direction: row;
+  margin-top: 14px;
+  padding-top: 100px;
+  border-top: 1px solid black;
 `;
 
 const BodyQuote = styled.h1`
   font-size: 18px;
-  padding: 0 200px;
+  padding: 30px 200px;
+  margin: 0 auto;
   text-align: center;
+  font-style: italic;
+  font-weight: normal;
 `;
 
 const BodyColumn = styled.div`
@@ -38,7 +44,6 @@ const BodyTextHeader = styled.h4`
   font-weight: 300;
   margin: 20px 100px;
   padding-bottom: 8px;
-  border-bottom: 1px solid black;
 `;
 
 const Body = () => (
