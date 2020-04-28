@@ -19,8 +19,8 @@ function App() {
         <Route exact path="/about" render={About} />
         <Route exact path="/menu" render={Menu} />
         <Footer />
+        <MobileFooter />
       </Router>
-      <MobileFooter />
     </div>
   );
 }
