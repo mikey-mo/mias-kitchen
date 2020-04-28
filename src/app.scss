@@ -1,8 +1,19 @@
+@import './components/components.scss';
+
 body {
+  width: 100%;
   margin: 0 auto;
   padding: 0;
   max-width: 1600px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Open Sans', sans-serif;
+}
+
+#root {
+  height: 100vh;
+}
+
+.App {
+  height: 100vh;
 }

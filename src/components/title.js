@@ -1,31 +1,23 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import text from '../constants/english.json';
 import ChefLogo from '../assets/logos/chef_logo_one.jpg';
 
-const TitleText = styled.h1`
-  margin-top: 20px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-size: 60px;
-  letter-spacing: 10px;
-  font-weight: lighter;
-  padding-bottom: 10px;
-  border-bottom: 1px solid black;
-`;
-
 const Title = () => (
-  <TitleText>
+  <div className="title">
     <img
       src={ChefLogo}
-      style={{ position: 'relative', right: '50px', width: '200px' }}
+      className="title__image"
     />
-    {text.header.title}
-  </TitleText>
+    <div style={{ textAlign: 'center' }}>
+      <h1 className="title__text">
+        {text.header.title}
+      </h1>
+      <h6 className="title__sub-text">
+        {text.header.subTitle}
+      </h6>
+    </div>
+  </div>
 );
 
 export default Title;

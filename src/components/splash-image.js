@@ -1,20 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import PastaOne from '../assets/header-images/pasta_one.jpg';
 import PastaTwo from '../assets/header-images/pasta_two.jpg';
 import ChickenOne from '../assets/header-images/chicken_one.jpg';
 import TacosOne from '../assets/header-images/tacos_one.jpg';
-
-const ImageContainer = styled.section`
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items; center;
-  height: 300px;
-  overflow: hidden;
-`;
 
 const RandomizeImageDisplay = () => {
   const potentialImages = [PastaOne, PastaTwo, ChickenOne, TacosOne];
@@ -34,9 +23,9 @@ const RandomizeImageDisplay = () => {
 }
 
 const SplashImage = () => (
-  <ImageContainer>
+  <div className="splash-image">
     {RandomizeImageDisplay()}
-  </ImageContainer>
+  </div>
 );
 
 export default SplashImage;
