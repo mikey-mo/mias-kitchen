@@ -114,3 +114,19 @@
     opacity: 1;
   }
 }
+
+.footer {
+  border-top: 1px solid black;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  &__link {
+    padding: 0 20px;
+  }
+
+  @media (max-width: 480px) {
+    display: none;
+  }
+}

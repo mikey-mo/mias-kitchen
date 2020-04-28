@@ -6,6 +6,7 @@ import MobileFooter from './views/mobile-footer';
 import About from './views/about';
 import Menu from './views/menu';
 import './app.scss';
+import Footer from './views/footer';
 
 function App() {
   return (
@@ -17,8 +18,8 @@ function App() {
         </Route>
         <Route exact path="/about" render={About} />
         <Route exact path="/menu" render={Menu} />
+        <Footer />
       </Router>
-      {/* <Body /> */}
       <MobileFooter />
     </div>
   );
