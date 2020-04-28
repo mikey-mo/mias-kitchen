@@ -46,13 +46,43 @@
   animation-duration: 2s;
   animation-timing-function: ease-in;
   animation-fill-mode:forwards;
+  margin: 20px 0;
+
+  &__quote {
+    margin: 60px auto 90px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    width: 850px;
+  }
 
   &__column {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    height: 200px;
+    width: 50%;
+    padding: 0 40px;
+    margin-top: 30px;
+
+    &__text {
+      padding: 0 30px;
+      white-space: pre-line;
+    }
+
+    &__text-header {
+      margin: 20px 0 0;
+    }
+
+    &__image {
+      margin: auto 0;
+      width: 100%;
+      border-radius: 4px;
+    }
+  }
+
+  .left-column {
+    border-right: 1px solid black;
   }
 }
 

@@ -15,13 +15,13 @@ const RandomizeImageDisplay = () => {
   const image = potentialImages[randomImage];
   return (
     <img
+      alt="splash"
       style={{
         objectFit: 'cover',
         width: '100%',
         height: '300px',
       }}
       src={image}
-      alt="Pasta"
     />
   )
 }

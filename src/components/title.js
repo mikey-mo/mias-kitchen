@@ -6,6 +6,7 @@ import ChefLogo from '../assets/logos/chef_logo_one.jpg';
 const Title = () => (
   <div className="title">
     <img
+      alt="logo"
       src={ChefLogo}
       className="title__image"
     />
