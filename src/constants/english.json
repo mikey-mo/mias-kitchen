@@ -1,4 +1,12 @@
 {
+  "navigation": {
+    "routes": [
+      "about",
+      "menu",
+      "contact",
+      "services"
+    ]
+  },
   "header": {
     "title": "mia's kitchen",
     "subTitle": "serving the east end since 2010",
