@@ -15,10 +15,6 @@
     align-items: center;
     margin: 0 auto;
 
-    &__icon {
-      
-    }
-
     &__button {
       padding: 0 20px;
       height: 100%;
@@ -53,7 +49,11 @@
     font-style: italic;
     font-weight: lighter;
     text-align: center;
-    width: 850px;
+
+    @media (max-width: 480px) {
+      font-size: 14px;
+      padding: 0 20px
+    }
   }
 
   &__column {
@@ -79,10 +79,21 @@
       width: 100%;
       border-radius: 4px;
     }
+
+    @media (max-width: 480px) {
+      padding: 0;
+      margin-top: 10px;
+      display: block;
+      width: 100%;
+    }
   }
 
   .left-column {
     border-right: 1px solid black;
+  }
+
+  @media (max-width: 1050px) {
+    display: block;
   }
 }
 
