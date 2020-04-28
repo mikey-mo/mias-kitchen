@@ -1,7 +1,12 @@
 {
   "header": {
     "title": "mia's kitchen",
-    "subTitle": "serving the east end since 2010"
+    "subTitle": "serving the east end since 2010",
+    "contacts": {
+      "tel": "5168526997",
+      "instagram": "https://instagram.com",
+      "email": "ironbran@aol.com"
+    }
   },
   "body": {
     "quote": "'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo' -- Illo",

@@ -2,10 +2,12 @@ import React from 'react';
 import { AiFillInstagram, AiFillPhone, AiFillMail } from 'react-icons/ai';
 import PropTypes from 'prop-types';
 
-const Contact = ({ uri }) => (
+import text from '../constants/english.json';
+
+const Contact = () => (
   <div className="contact">
     <div className="contact__item">
-      <a href={uri}>
+      <a href={`tel:+${text.header.contacts.tel}`}>
         <AiFillPhone
           size={24}
           color="black"
@@ -13,7 +15,7 @@ const Contact = ({ uri }) => (
       </a>
     </div>
     <div className="contact__item">
-      <a href={uri}>
+      <a href={text.header.contacts.instagram}>
         <AiFillInstagram
           size={24}
           color="black"
@@ -21,7 +23,7 @@ const Contact = ({ uri }) => (
       </a>
     </div>
     <div className="contact__item">
-      <a href={uri}>
+      <a href={`mailto:${text.header.contacts.email}?Subject=Hello!`} target="_top">
         <AiFillMail
           size={24}
           color="black"
