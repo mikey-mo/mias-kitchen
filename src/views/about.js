@@ -46,10 +46,33 @@ import React from 'react';
 //   padding-bottom: 8px;
 // `;
 
-const Body = () => (
-  <section className="">
-
-  </section>
+const About = () => (
+  <div>
+    <section className="about">
+      <div className="about__column">
+        hi
+      </div>
+      <div className="about__column">
+        hey
+      </div>
+    </section>
+    <section className="about">
+      <div className="about__column">
+        hi
+      </div>
+      <div className="about__column">
+        hey
+      </div>
+    </section>
+    <section className="about">
+      <div className="about__column">
+        hi
+      </div>
+      <div className="about__column">
+        hey
+      </div>
+    </section>
+  </div>
   // <Fragment>
   //   <BodyQuote>
   //     {text.body.quote}
@@ -74,4 +97,4 @@ const Body = () => (
   // </Fragment>
 );
 
-export default Body;
+export default About;

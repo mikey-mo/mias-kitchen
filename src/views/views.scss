@@ -1,20 +1,66 @@
 .mobile-footer {
   width: 100%;
-  position: absolute;
+  height: 60px;
+  position: fixed;
   bottom: 0;
   z-index: 100;
+  background-color: white;
 
   &__buttons {
     border-top: 1px solid black;
-    height: 60px;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+
+    &__icon {
+      
+    }
+
+    &__button {
+      padding: 0 20px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:active {
+        background-color: lightgray;
+      }
+    }
   }
 
   @media (min-width: 480px) {
     display: none;
+  }
+}
+
+.about {
+  opacity: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-fill-mode:forwards;
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

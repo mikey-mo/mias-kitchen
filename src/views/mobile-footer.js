@@ -7,7 +7,11 @@ import text from '../constants/english.json';
 const NavBar = () => (
   <nav className="mobile-footer">
     <div className="mobile-footer__buttons">
-      {text.navigation.routes.map((button) => <p key={button} style={{ margin: '0 14px', fontSize: '10px' }}>{button}</p>)}
+      {text.navigation.routes.map((button) => 
+        <div key={button}>
+          <p className="mobile-footer__buttons__button"  style={{ margin: '0 14px', fontSize: '10px' }}>{button}</p>
+        </div>
+      )}
     </div>
   </nav>
 );
