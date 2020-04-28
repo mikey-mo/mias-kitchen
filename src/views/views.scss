@@ -52,7 +52,7 @@
 
     @media (max-width: 480px) {
       font-size: 14px;
-      padding: 0 20px
+      padding: 0 20px;
     }
   }
 
@@ -68,10 +68,19 @@
     &__text {
       padding: 0 30px;
       white-space: pre-line;
+
+      @media (max-width: 1050px) {
+        font-size: 14px;
+        text-align: justify;
+      }
     }
 
     &__text-header {
       margin: 20px 0 0;
+
+      @media (max-width: 1050px) {
+        text-align: center;
+      }
     }
 
     &__image {
