@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 import Header from './views/header';
 // import Body from './views/body';
 import MobileFooter from './views/mobile-footer';
@@ -12,6 +12,9 @@ function App() {
     <div className="App">
       <Router>
         <Header />
+        <Route path="/">
+          <Redirect to="/about" />
+        </Route>
         <Route exact path="/about" render={Body} />
       </Router>
       {/* <Body /> */}
