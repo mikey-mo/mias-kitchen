@@ -177,4 +177,7 @@
       text-align: justify;
     }
   }
+  @media (max-width: 480px) {
+    padding-bottom: 40px;
+  }
 }
