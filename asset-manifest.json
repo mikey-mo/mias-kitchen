@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mias-kitchen/static/css/main.ad9e5d62.chunk.css",
-    "main.js": "/mias-kitchen/static/js/main.ec8e9c77.chunk.js",
-    "main.js.map": "/mias-kitchen/static/js/main.ec8e9c77.chunk.js.map",
+    "main.js": "/mias-kitchen/static/js/main.158f588f.chunk.js",
+    "main.js.map": "/mias-kitchen/static/js/main.158f588f.chunk.js.map",
     "runtime-main.js": "/mias-kitchen/static/js/runtime-main.18764858.js",
     "runtime-main.js.map": "/mias-kitchen/static/js/runtime-main.18764858.js.map",
     "static/js/2.3127e608.chunk.js": "/mias-kitchen/static/js/2.3127e608.chunk.js",
     "static/js/2.3127e608.chunk.js.map": "/mias-kitchen/static/js/2.3127e608.chunk.js.map",
     "index.html": "/mias-kitchen/index.html",
-    "precache-manifest.d274581f3e822c27f54fd69e6c87643d.js": "/mias-kitchen/precache-manifest.d274581f3e822c27f54fd69e6c87643d.js",
+    "precache-manifest.ebe75471f18fce74da93b15022d5e3ca.js": "/mias-kitchen/precache-manifest.ebe75471f18fce74da93b15022d5e3ca.js",
     "service-worker.js": "/mias-kitchen/service-worker.js",
     "static/css/main.ad9e5d62.chunk.css.map": "/mias-kitchen/static/css/main.ad9e5d62.chunk.css.map",
     "static/js/2.3127e608.chunk.js.LICENSE.txt": "/mias-kitchen/static/js/2.3127e608.chunk.js.LICENSE.txt",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.18764858.js",
     "static/js/2.3127e608.chunk.js",
     "static/css/main.ad9e5d62.chunk.css",
-    "static/js/main.ec8e9c77.chunk.js"
+    "static/js/main.158f588f.chunk.js"
   ]
 }

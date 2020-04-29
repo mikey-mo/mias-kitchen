@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d2deb098b6ea18a102ad3cf2254960d2",
+    "revision": "80945df0b0a6780513cb86591d40bf50",
     "url": "/mias-kitchen/index.html"
   },
   {
-    "revision": "375eb49b2a09ac4ac640",
+    "revision": "8efe01d53bebf3fe64ba",
     "url": "/mias-kitchen/static/css/main.ad9e5d62.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mias-kitchen/static/js/2.3127e608.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "375eb49b2a09ac4ac640",
-    "url": "/mias-kitchen/static/js/main.ec8e9c77.chunk.js"
+    "revision": "8efe01d53bebf3fe64ba",
+    "url": "/mias-kitchen/static/js/main.158f588f.chunk.js"
   },
   {
     "revision": "9ba113bed05a9b796fe9",
