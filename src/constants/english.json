@@ -25,8 +25,9 @@
     "rowThreeHeader": "Lorem",
     "rowThree": "Bacon ipsum dolor amet bresaola ground round pancetta chicken pork. Pig short loin filet mignon, burgdoggen jowl doner jerky shankle shoulder tail beef ribs. Boudin andouille pork swine ham. Capicola ball tip kevin, turkey boudin pork beef brisket pork chop drumstick pork loin flank.\n\nPig jowl ham meatloaf kielbasa frankfurter boudin swine. Ham cow venison chuck, shank tail landjaeger brisket bacon corned beef short ribs. Leberkas beef ribs ham hock flank fatback hamburger. Landjaeger biltong burgdoggen tri-tip pig. Tri-tip filet mignon pork chop, venison brisket turducken cupim pork beef landjaeger."
   },
-  "services": 
-    [
+  "services": {
+    "header": "Bacon ipsum dolor amet bresaola ground round pancetta chicken pork. Pig short loin filet mignon, burgdoggen jowl doner jerky shankle shoulder tail beef ribs. Boudin andouille pork swine ham. Capicola ball tip kevin, turkey.",
+    "services": [
       {
         "header": "Lorem Ipsum",
         "services": [
@@ -47,7 +48,8 @@
           "Lebowski ipsum when will you find these guys? I mean, do you have any promising leads? Hey, relax man, I'm a brother shamus. You might fool the guys in the league office, but you don't fool Jesus! It's all a goddamn fake. Like Lenin said, look for the person who will benefit."
         ]
       }
-    ],
+    ]
+  },
   "footer": {
     "copyright": "maikimo",
     "contact": "contact",

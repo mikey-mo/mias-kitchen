@@ -16,9 +16,9 @@ const serviceMap = (services, i) => services.map((service) => (
 const Services = () => (
   <div className="services">
     <h4 className="services__header">
-      Something
+      {text.services.header}
     </h4>
-    {text.services.map((service, i) => (
+    {text.services.services.map((service, i) => (
       <ScrollAnimation
         key={`${service.header}-${i}`}
         animateIn="fadeIn"
