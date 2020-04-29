@@ -16,8 +16,7 @@ const About = () => (
     <ScrollAnimation
       animateIn="fadeIn"
       animateOnce
-      duration={2}
-      animatePreScroll={false}
+      duration={1}
     >
       <section className="about">
         <div className="about__column left-column">
@@ -37,7 +36,11 @@ const About = () => (
         </div>
       </section>
     </ScrollAnimation>
-    <ScrollAnimation animateIn="fadeIn" animateOnce duration={2}>
+    <ScrollAnimation
+      animateIn="fadeIn"
+      animateOnce
+      duration={1}
+    >
       <section className="about reverse">
         <div className="about__column left-column">
           <h2 className="about__column__text-header">
@@ -56,7 +59,11 @@ const About = () => (
         </div>
       </section>
     </ScrollAnimation>
-    <ScrollAnimation animateIn="fadeIn" animateOnce duration={2}>
+    <ScrollAnimation
+      animateIn="fadeIn"
+      animateOnce
+      duration={1}
+    >
       <section className="about">
         <div className="about__column left-column">
           <img

@@ -85,6 +85,8 @@
   align-items: center;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
+  animation-name: logo-container-move;
+  animation-duration: 2s;
 
   &__text {
     margin: 0;
@@ -92,6 +94,8 @@
     font-size: 60px;
     letter-spacing: 10px;
     font-weight: lighter;
+    animation-name: logo-title-scale;
+    animation-duration: 2s;
 
     @media (max-width: 850px) {
       font-size: 44px;
@@ -110,6 +114,8 @@
     font-size: 14px;
     letter-spacing: 2px;
     font-weight: lighter;
+    animation-name: logo-sub-title-scale;
+    animation-duration: 2s;
 
     @media (max-width: 850px) {
       font-size: 8px;
@@ -121,6 +127,8 @@
     width: 300px;
     position: relative;
     right: 20px;
+    animation-name: logo-img-scale;
+    animation-duration: 2s;
 
     @media (max-width: 850px) {
       width: 220px;
@@ -136,5 +144,43 @@
   @media (max-width: 480px) {
     margin-top: 0;
     flex-direction: column;
+  }
+}
+
+@keyframes logo-title-scale {
+  from {
+    font-size: 44px;
+  }
+  to {
+    font-size: 24px;
+  }
+}
+
+@keyframes logo-img-scale {
+  from {
+    width: 300px;
+  }
+  to {
+    width: 150px;
+  }
+}
+
+@keyframes logo-sub-title-scale {
+  from {
+    font-size: 14px;
+    opacity: 1;
+  }
+  to {
+    font-size: 8px;
+    opacity: 0;
+  }
+}
+
+@keyframes logo-container-move {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: blue;
   }
 }

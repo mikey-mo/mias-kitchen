@@ -15,13 +15,15 @@ const serviceMap = (services, i) => services.map((service) => (
 
 const Services = () => (
   <div className="services">
+    <h4 className="services__header">
+      Something
+    </h4>
     {text.services.map((service, i) => (
       <ScrollAnimation
         key={`${service.header}-${i}`}
         animateIn="fadeIn"
         animateOnce
-        duration={2}
-        animatePreScroll={false}
+        duration={1}
         className="services__container"
         style={{
           borderBottom: (i === (text.services.length - 1)) ? 'none' : '1px solid black',
