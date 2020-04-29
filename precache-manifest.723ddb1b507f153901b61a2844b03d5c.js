@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b56692e69a6aa991b952f2d586a517bb",
+    "revision": "56589afd36cee3991c92ee723f260e5f",
     "url": "/mias-kitchen/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mias-kitchen/static/css/2.f2ad0615.chunk.css"
   },
   {
-    "revision": "92d5a38d332e77f2111b",
+    "revision": "278c1c12fe9986df8b7a",
     "url": "/mias-kitchen/static/css/main.4a5ed845.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mias-kitchen/static/js/2.275dead6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "92d5a38d332e77f2111b",
-    "url": "/mias-kitchen/static/js/main.edb0c39c.chunk.js"
+    "revision": "278c1c12fe9986df8b7a",
+    "url": "/mias-kitchen/static/js/main.81d04ebd.chunk.js"
   },
   {
     "revision": "9ba113bed05a9b796fe9",
