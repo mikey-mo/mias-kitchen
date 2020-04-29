@@ -26,8 +26,8 @@ const Services = () => (
         duration={1}
         className="services__container"
         style={{
-          borderBottom: (i === (text.services.length - 1)) ? 'none' : '1px solid black',
-          paddingBottom: (i === (text.services.length - 1)) ? 0 : '20px',
+          borderBottom: (i === (text.services.services.length - 1)) ? '0 solid black' : '1px solid black',
+          paddingBottom: (i === (text.services.services.length - 1)) ? 0 : '20px',
         }}
       >
         <h3 className="services__container__header">
