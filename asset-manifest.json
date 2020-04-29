@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mias-kitchen/static/css/main.78f9343c.chunk.css",
-    "main.js": "/mias-kitchen/static/js/main.d13aa4f0.chunk.js",
-    "main.js.map": "/mias-kitchen/static/js/main.d13aa4f0.chunk.js.map",
+    "main.js": "/mias-kitchen/static/js/main.0d68cc5d.chunk.js",
+    "main.js.map": "/mias-kitchen/static/js/main.0d68cc5d.chunk.js.map",
     "runtime-main.js": "/mias-kitchen/static/js/runtime-main.18764858.js",
     "runtime-main.js.map": "/mias-kitchen/static/js/runtime-main.18764858.js.map",
     "static/css/2.f2ad0615.chunk.css": "/mias-kitchen/static/css/2.f2ad0615.chunk.css",
     "static/js/2.275dead6.chunk.js": "/mias-kitchen/static/js/2.275dead6.chunk.js",
     "static/js/2.275dead6.chunk.js.map": "/mias-kitchen/static/js/2.275dead6.chunk.js.map",
     "index.html": "/mias-kitchen/index.html",
-    "precache-manifest.f15d26793840edbb9bef6739fded4bea.js": "/mias-kitchen/precache-manifest.f15d26793840edbb9bef6739fded4bea.js",
+    "precache-manifest.57546346d5ba495fccbbca2169103cd7.js": "/mias-kitchen/precache-manifest.57546346d5ba495fccbbca2169103cd7.js",
     "service-worker.js": "/mias-kitchen/service-worker.js",
     "static/css/2.f2ad0615.chunk.css.map": "/mias-kitchen/static/css/2.f2ad0615.chunk.css.map",
     "static/css/main.78f9343c.chunk.css.map": "/mias-kitchen/static/css/main.78f9343c.chunk.css.map",
@@ -32,6 +32,6 @@
     "static/css/2.f2ad0615.chunk.css",
     "static/js/2.275dead6.chunk.js",
     "static/css/main.78f9343c.chunk.css",
-    "static/js/main.d13aa4f0.chunk.js"
+    "static/js/main.0d68cc5d.chunk.js"
   ]
 }
