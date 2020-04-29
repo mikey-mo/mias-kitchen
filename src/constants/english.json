@@ -2,9 +2,9 @@
   "navigation": {
     "routes": [
       "about",
+      "services",
       "menu",
-      "contact",
-      "services"
+      "contact"
     ]
   },
   "header": {
