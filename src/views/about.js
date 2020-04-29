@@ -13,7 +13,12 @@ const About = () => (
       <h4 className="about__quote">
         {text.about.quote}
       </h4>
-    <ScrollAnimation animateIn="fadeIn" animateOnce duration={2}>
+    <ScrollAnimation
+      animateIn="fadeIn"
+      animateOnce
+      duration={2}
+      animatePreScroll={false}
+    >
       <section className="about">
         <div className="about__column left-column">
           <img
