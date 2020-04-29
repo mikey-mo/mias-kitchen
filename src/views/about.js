@@ -28,7 +28,7 @@ const About = () => (
         </p>
       </div>
     </section>
-    <section className="about">
+    <section className="about reverse">
       <div className="about__column left-column">
         <h2 className="about__column__text-header">
           {text.about.rowTwoHeader}

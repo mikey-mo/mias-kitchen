@@ -97,7 +97,6 @@
     @media (max-width: 1050px) {
       padding: 0;
       margin-top: 10px;
-      display: block;
       width: 100%;
     }
   }
@@ -107,7 +106,14 @@
   }
 
   @media (max-width: 1050px) {
-    display: block;
+    padding-bottom: 40px;
+    flex-direction: column;
+  }
+}
+
+.reverse {
+  @media (max-width: 1050px) {
+    flex-direction: column-reverse;
   }
 }
 
