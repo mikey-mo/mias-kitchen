@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 
 import PastaOne from '../assets/header-images/pasta_one.jpg';
 import PastaTwo from '../assets/header-images/pasta_two.jpg';
@@ -32,4 +33,4 @@ const SplashImage = () => (
   </div>
 );
 
-export default SplashImage;
+export default withRouter(SplashImage);
