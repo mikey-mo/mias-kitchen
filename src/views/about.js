@@ -10,9 +10,9 @@ import CateringOne from '../assets/about-images/catering_one.jpg';
 
 const About = () => (
   <div>
-      <h4 className="about__quote">
-        {text.about.quote}
-      </h4>
+    <h4 className="about__quote">
+      {text.about.quote}
+    </h4>
     <ScrollAnimation
       animateIn="fadeIn"
       animateOnce

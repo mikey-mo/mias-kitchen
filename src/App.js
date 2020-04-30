@@ -11,10 +11,16 @@ import Services from './views/services';
 
 import './app.scss';
 
+const ScrollToTop = () => {
+  window.scrollTo(0, 0);
+  return null;
+};
+
 function App() {
   return (
     <div className="App">
       <Router basename={process.env.PUBLIC_URL}>
+        <Route component={ScrollToTop}/>
         <Header />
         <Route path="/">
           <Redirect to="/about" />

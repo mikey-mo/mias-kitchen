@@ -1,10 +1,16 @@
 import React from 'react';
 
+import text from '../constants/menus.json';
+
 const Menu = () => (
   <div>
-    <p>
-      Hi
-    </p>
+    {text.map((menu) => (
+      <section
+        key={menu.header}
+      >
+        {menu.header}
+      </section>
+    ))}
   </div>
 );
 
