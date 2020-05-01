@@ -104,8 +104,9 @@
     }
 
     @media (max-width: 480px) {
-      font-size: 24px;
+      font-size: 30px;
       letter-spacing: 4px;
+      margin-bottom: 0;
     }
   }
 
@@ -121,6 +122,10 @@
     @media (max-width: 850px) {
       font-size: 8px;
       margin-bottom: 10px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 10px;
     }
   }
 
