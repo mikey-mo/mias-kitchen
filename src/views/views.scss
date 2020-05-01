@@ -101,6 +101,10 @@
 
   .left-column {
     border-right: 1px solid black;
+
+    @media (max-width: 480px) {
+      border-right: none;
+    }
   }
 
   @media (max-width: 1050px) {
