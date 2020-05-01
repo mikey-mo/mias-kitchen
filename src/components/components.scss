@@ -116,8 +116,6 @@
     font-size: 14px;
     letter-spacing: 2px;
     font-weight: lighter;
-    animation-name: logo-sub-title-scale;
-    animation-duration: 2s;
 
     @media (max-width: 850px) {
       font-size: 8px;
@@ -133,8 +131,6 @@
     width: 300px;
     position: relative;
     right: 20px;
-    animation-name: logo-img-scale;
-    animation-duration: 2s;
 
     @media (max-width: 850px) {
       width: 220px;
