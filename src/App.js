@@ -8,6 +8,7 @@ import About from './views/about';
 import Menu from './views/menu';
 import Footer from './views/footer';
 import Services from './views/services';
+import Connect from './views/connect';
 
 import './app.scss';
 
@@ -28,6 +29,7 @@ function App() {
         <Route exact path="/about" render={About} />
         <Route exact path="/menu" render={Menu} />
         <Route exact path="/services" render={Services} />
+        <Route exact path="/connect" render={Connect} />
         <Footer />
         <MobileFooter />
       </Router>

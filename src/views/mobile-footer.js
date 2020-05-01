@@ -15,7 +15,7 @@ const renderIcon = (button) => {
           size={18}
         />
       )
-    case ('contact'):
+    case ('connect'):
       return (
         <AiTwotoneMail
           color="black"
