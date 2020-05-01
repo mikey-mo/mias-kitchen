@@ -9,9 +9,10 @@ import PizzaOne from '../assets/header-images/pizza_one.jpg';
 import CakeOne from '../assets/header-images/cake_one.jpg';
 import SaladOne from '../assets/header-images/salad_one.jpg';
 import SoupOne from '../assets/header-images/soup_one.jpg';
+import LobsterOne from '../assets/header-images/lobster_one.jpg';
 
 const RandomizeImageDisplay = () => {
-  const potentialImages = [SoupOne, PastaOne, PastaTwo, ChickenOne, TacosOne, PizzaOne, CakeOne, SaladOne];
+  const potentialImages = [LobsterOne, SoupOne, PastaOne, PastaTwo, ChickenOne, TacosOne, PizzaOne, CakeOne, SaladOne];
   const randomImage = Math.floor(Math.random() * ((potentialImages.length) - 0)) + 0;
   const image = potentialImages[randomImage];
   return (

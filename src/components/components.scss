@@ -17,6 +17,7 @@
   text-decoration: none;
   padding: 20px 40px;
   margin: 0 4px;
+
   &:hover {
     background-color: lightgrey;
     cursor: pointer;
@@ -151,41 +152,3 @@
     border: none;
   }
 }
-
-// @keyframes logo-title-scale {
-//   from {
-//     font-size: 44px;
-//   }
-//   to {
-//     font-size: 24px;
-//   }
-// }
-
-// @keyframes logo-img-scale {
-//   from {
-//     width: 300px;
-//   }
-//   to {
-//     width: 150px;
-//   }
-// }
-
-// @keyframes logo-sub-title-scale {
-//   from {
-//     font-size: 14px;
-//     opacity: 1;
-//   }
-//   to {
-//     font-size: 8px;
-//     opacity: 0;
-//   }
-// }
-
-// @keyframes logo-container-move {
-//   from {
-//     background-color: red;
-//   }
-//   to {
-//     background-color: blue;
-//   }
-// }

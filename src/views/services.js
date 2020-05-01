@@ -4,6 +4,16 @@ import "animate.css/animate.min.css";
 
 import text from '../constants/english.json';
 
+import Catering from '../assets/services-images/catering.jpg';
+import Delivery from '../assets/services-images/delivery.jpg';
+import PrivateChef from '../assets/services-images/private_chef.jpg';
+
+const images = {
+  Catering,
+  Delivery,
+  PrivateChef,
+};
+
 const serviceMap = (services, i) => services.map((service) => (
   <p
     key={i}
@@ -26,10 +36,14 @@ const Services = () => (
         duration={1}
         className="services__container"
         style={{
-          borderBottom: (i === (text.services.services.length - 1)) ? '0 solid black' : '1px solid black',
           paddingBottom: (i === (text.services.services.length - 1)) ? 0 : '20px',
         }}
       >
+        <img
+          className="services__container__image"
+          src={images[service.image]}
+          alt={JSON.stringify(service.image)}
+        />
         <h3 className="services__container__header">
           {service.header}
         </h3>
