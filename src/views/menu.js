@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import text from '../constants/menus.json';
 
@@ -14,7 +15,12 @@ const Menu = () => (
           </h4>
           {menu.items.map((item) => {
             return (
-              <div key={item}>
+              <ScrollAnimation
+                key={item}
+                animateIn="fadeIn"
+                animateOnce
+                duration={1}
+              >
                 <div className="menu__items">
                   {item.name}
                   <div className="menu__items__divider" />
@@ -41,7 +47,7 @@ const Menu = () => (
                     )
                   })}
                 </div>
-              </div>
+              </ScrollAnimation>
             )
           })}
       </section>
