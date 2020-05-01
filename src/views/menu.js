@@ -6,7 +6,10 @@ import text from '../constants/menus.json';
 const Menu = () => (
   <div className="menu__wrapper">
     {text.map((menu) => (
-      <section
+      <ScrollAnimation
+        animateIn="fadeIn"
+        animateOnce
+        duration={1}
         key={menu.header}
         className="menu"
       >
@@ -15,11 +18,8 @@ const Menu = () => (
           </h4>
           {menu.items.map((item) => {
             return (
-              <ScrollAnimation
+              <div
                 key={item}
-                animateIn="fadeIn"
-                animateOnce
-                duration={1}
               >
                 <div className="menu__items">
                   <span className="menu__items__name">
@@ -51,10 +51,10 @@ const Menu = () => (
                     )
                   })}
                 </div>
-              </ScrollAnimation>
+              </div>
             )
           })}
-      </section>
+      </ScrollAnimation>
     ))}
   </div>
 );
