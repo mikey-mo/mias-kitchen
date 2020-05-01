@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/mias-kitchen/static/css/main.7cb92967.chunk.css",
-    "main.js": "/mias-kitchen/static/js/main.27e41c65.chunk.js",
-    "main.js.map": "/mias-kitchen/static/js/main.27e41c65.chunk.js.map",
+    "main.css": "/mias-kitchen/static/css/main.d4c493eb.chunk.css",
+    "main.js": "/mias-kitchen/static/js/main.f4c70374.chunk.js",
+    "main.js.map": "/mias-kitchen/static/js/main.f4c70374.chunk.js.map",
     "runtime-main.js": "/mias-kitchen/static/js/runtime-main.18764858.js",
     "runtime-main.js.map": "/mias-kitchen/static/js/runtime-main.18764858.js.map",
     "static/css/2.f2ad0615.chunk.css": "/mias-kitchen/static/css/2.f2ad0615.chunk.css",
-    "static/js/2.b1b6039b.chunk.js": "/mias-kitchen/static/js/2.b1b6039b.chunk.js",
-    "static/js/2.b1b6039b.chunk.js.map": "/mias-kitchen/static/js/2.b1b6039b.chunk.js.map",
+    "static/js/2.9327a8f5.chunk.js": "/mias-kitchen/static/js/2.9327a8f5.chunk.js",
+    "static/js/2.9327a8f5.chunk.js.map": "/mias-kitchen/static/js/2.9327a8f5.chunk.js.map",
     "index.html": "/mias-kitchen/index.html",
-    "precache-manifest.750d1545178465383d95253d3985f0ea.js": "/mias-kitchen/precache-manifest.750d1545178465383d95253d3985f0ea.js",
+    "precache-manifest.6c37e9a3fa044bf7706ed0eaba7ab766.js": "/mias-kitchen/precache-manifest.6c37e9a3fa044bf7706ed0eaba7ab766.js",
     "service-worker.js": "/mias-kitchen/service-worker.js",
     "static/css/2.f2ad0615.chunk.css.map": "/mias-kitchen/static/css/2.f2ad0615.chunk.css.map",
-    "static/css/main.7cb92967.chunk.css.map": "/mias-kitchen/static/css/main.7cb92967.chunk.css.map",
-    "static/js/2.b1b6039b.chunk.js.LICENSE.txt": "/mias-kitchen/static/js/2.b1b6039b.chunk.js.LICENSE.txt",
+    "static/css/main.d4c493eb.chunk.css.map": "/mias-kitchen/static/css/main.d4c493eb.chunk.css.map",
+    "static/js/2.9327a8f5.chunk.js.LICENSE.txt": "/mias-kitchen/static/js/2.9327a8f5.chunk.js.LICENSE.txt",
     "static/media/cake_one.jpg": "/mias-kitchen/static/media/cake_one.686c960a.jpg",
     "static/media/catering.jpg": "/mias-kitchen/static/media/catering.9d65d36a.jpg",
     "static/media/catering_one.jpg": "/mias-kitchen/static/media/catering_one.a030a66f.jpg",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.18764858.js",
     "static/css/2.f2ad0615.chunk.css",
-    "static/js/2.b1b6039b.chunk.js",
-    "static/css/main.7cb92967.chunk.css",
-    "static/js/main.27e41c65.chunk.js"
+    "static/js/2.9327a8f5.chunk.js",
+    "static/css/main.d4c493eb.chunk.css",
+    "static/js/main.f4c70374.chunk.js"
   ]
 }
