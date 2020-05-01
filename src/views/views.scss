@@ -235,10 +235,11 @@
 
   &__items {
     display: flex;
+    flex-direction: row;
+    align-items: flex-end;
 
     &__ingredients {
-      display: flex;
-      padding-left: 40px;
+      padding: 0 40px;
       letter-spacing: 1px;
 
       &__ingredient {
@@ -252,13 +253,17 @@
         }
       }
     }
+
+    &__name {
+      white-space: nowrap;
+    }
   
     &__divider {
       position: relative;
       bottom: 4px;
       width: 100%;
       border-bottom: 1px dashed black;
-      margin: 0 20px;
+      margin: 0 10px;
     }
 
     @media (max-width: 1050px) {
@@ -270,9 +275,5 @@
       padding-left: 15px;
       padding-right: 15px;
     }
-  }
-
-  @media (max-width: 480px) {
-
   }
 }

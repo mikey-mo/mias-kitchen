@@ -22,14 +22,18 @@ const Menu = () => (
                 duration={1}
               >
                 <div className="menu__items">
-                  {item.name}
+                  <span className="menu__items__name">
+                    {item.name}
+                  </span>
                   <div className="menu__items__divider" />
-                  {item.price}
+                  <span className="menu__items__price">
+                    {item.price}
+                  </span>
                 </div>
                 <div className="menu__items__ingredients">
                   {item.ingredients.map((ingredient, i) => {
                     return (
-                      <div
+                      <span
                         className="menu__items__ingredients__ingredient"
                         key={ingredient}
                       >
@@ -43,7 +47,7 @@ const Menu = () => (
                               </span>
                             </span>
                           )}
-                      </div>
+                      </span>
                     )
                   })}
                 </div>
