@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mias-kitchen/static/css/main.c435a492.chunk.css",
+    "main.css": "/mias-kitchen/static/css/main.1416d304.chunk.css",
     "main.js": "/mias-kitchen/static/js/main.dd4ab151.chunk.js",
     "main.js.map": "/mias-kitchen/static/js/main.dd4ab151.chunk.js.map",
     "runtime-main.js": "/mias-kitchen/static/js/runtime-main.18764858.js",
@@ -9,10 +9,10 @@
     "static/js/2.d882a676.chunk.js": "/mias-kitchen/static/js/2.d882a676.chunk.js",
     "static/js/2.d882a676.chunk.js.map": "/mias-kitchen/static/js/2.d882a676.chunk.js.map",
     "index.html": "/mias-kitchen/index.html",
-    "precache-manifest.ed8a5f15f6e02a017788bd5a91f1d39d.js": "/mias-kitchen/precache-manifest.ed8a5f15f6e02a017788bd5a91f1d39d.js",
+    "precache-manifest.e9c1ebfdc61f4792fbf310f8a074baef.js": "/mias-kitchen/precache-manifest.e9c1ebfdc61f4792fbf310f8a074baef.js",
     "service-worker.js": "/mias-kitchen/service-worker.js",
     "static/css/2.f2ad0615.chunk.css.map": "/mias-kitchen/static/css/2.f2ad0615.chunk.css.map",
-    "static/css/main.c435a492.chunk.css.map": "/mias-kitchen/static/css/main.c435a492.chunk.css.map",
+    "static/css/main.1416d304.chunk.css.map": "/mias-kitchen/static/css/main.1416d304.chunk.css.map",
     "static/js/2.d882a676.chunk.js.LICENSE.txt": "/mias-kitchen/static/js/2.d882a676.chunk.js.LICENSE.txt",
     "static/media/cake_one.jpg": "/mias-kitchen/static/media/cake_one.686c960a.jpg",
     "static/media/catering_one.jpg": "/mias-kitchen/static/media/catering_one.a030a66f.jpg",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.18764858.js",
     "static/css/2.f2ad0615.chunk.css",
     "static/js/2.d882a676.chunk.js",
-    "static/css/main.c435a492.chunk.css",
+    "static/css/main.1416d304.chunk.css",
     "static/js/main.dd4ab151.chunk.js"
   ]
 }
