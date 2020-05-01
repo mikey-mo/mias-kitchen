@@ -103,7 +103,7 @@
     }
 
     @media (max-width: 480px) {
-      font-size: 20px;
+      font-size: 24px;
       letter-spacing: 4px;
     }
   }
@@ -118,7 +118,7 @@
     animation-duration: 2s;
 
     @media (max-width: 850px) {
-      font-size: 6px;
+      font-size: 8px;
       margin-bottom: 10px;
     }
   }
@@ -144,6 +144,7 @@
   @media (max-width: 480px) {
     margin-bottom: 0;
     padding-bottom: 0;
+    padding-top: 10px;
     margin-top: 0;
     justify-content: flex-start;
     flex-direction: row-reverse;
