@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/mias-kitchen/static/css/main.e9d6674c.chunk.css",
-    "main.js": "/mias-kitchen/static/js/main.7f0d5986.chunk.js",
-    "main.js.map": "/mias-kitchen/static/js/main.7f0d5986.chunk.js.map",
+    "main.js": "/mias-kitchen/static/js/main.f6587583.chunk.js",
+    "main.js.map": "/mias-kitchen/static/js/main.f6587583.chunk.js.map",
     "runtime-main.js": "/mias-kitchen/static/js/runtime-main.18764858.js",
     "runtime-main.js.map": "/mias-kitchen/static/js/runtime-main.18764858.js.map",
     "static/css/2.f2ad0615.chunk.css": "/mias-kitchen/static/css/2.f2ad0615.chunk.css",
-    "static/js/2.6df11fb7.chunk.js": "/mias-kitchen/static/js/2.6df11fb7.chunk.js",
-    "static/js/2.6df11fb7.chunk.js.map": "/mias-kitchen/static/js/2.6df11fb7.chunk.js.map",
+    "static/js/2.b1b6039b.chunk.js": "/mias-kitchen/static/js/2.b1b6039b.chunk.js",
+    "static/js/2.b1b6039b.chunk.js.map": "/mias-kitchen/static/js/2.b1b6039b.chunk.js.map",
     "index.html": "/mias-kitchen/index.html",
-    "precache-manifest.95f6d8da86f9a0e2ff2d7b9b65511272.js": "/mias-kitchen/precache-manifest.95f6d8da86f9a0e2ff2d7b9b65511272.js",
+    "precache-manifest.618ff487f8878d9fb806f61e800bb5d6.js": "/mias-kitchen/precache-manifest.618ff487f8878d9fb806f61e800bb5d6.js",
     "service-worker.js": "/mias-kitchen/service-worker.js",
     "static/css/2.f2ad0615.chunk.css.map": "/mias-kitchen/static/css/2.f2ad0615.chunk.css.map",
     "static/css/main.e9d6674c.chunk.css.map": "/mias-kitchen/static/css/main.e9d6674c.chunk.css.map",
-    "static/js/2.6df11fb7.chunk.js.LICENSE.txt": "/mias-kitchen/static/js/2.6df11fb7.chunk.js.LICENSE.txt",
+    "static/js/2.b1b6039b.chunk.js.LICENSE.txt": "/mias-kitchen/static/js/2.b1b6039b.chunk.js.LICENSE.txt",
     "static/media/cake_one.jpg": "/mias-kitchen/static/media/cake_one.686c960a.jpg",
     "static/media/catering.jpg": "/mias-kitchen/static/media/catering.9d65d36a.jpg",
     "static/media/catering_one.jpg": "/mias-kitchen/static/media/catering_one.a030a66f.jpg",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.18764858.js",
     "static/css/2.f2ad0615.chunk.css",
-    "static/js/2.6df11fb7.chunk.js",
+    "static/js/2.b1b6039b.chunk.js",
     "static/css/main.e9d6674c.chunk.css",
-    "static/js/main.7f0d5986.chunk.js"
+    "static/js/main.f6587583.chunk.js"
   ]
 }
