@@ -3,34 +3,30 @@ import MailchimpSubscribe from "react-mailchimp-subscribe"
 import InstagramEmbed from 'react-instagram-embed';
 import ScrollAnimation from 'react-animate-on-scroll';
 
+import text from '../constants/english.json';
+
 const url = "//xxxx.us13.list-manage.com/subscribe/post?u=zefzefzef&id=fnfgn";
 
 const Connect = () => (
-  <div>
+  <div className="connect">
     <ScrollAnimation
-      style={{
-        width: '80%',
-        margin: '0 auto',
-      }}
       duration={1}
       animateIn="fadeIn"
     >
-      <MailchimpSubscribe url={url}/>
-    </ScrollAnimation>
-    <div style={{ padding: '20px 0', borderBottom: '1px solid black' }} />
-    <ScrollAnimation
-      style={{
-        width: '80%',
-        margin: '0 auto',
-      }}
-      duration={1}
-      animateIn="fadeIn"
-    >
-      <InstagramEmbed
-        url='https://instagr.am/p/Zw9o4/'
-        hideCaption
-        containerTagName='div'
-      />
+      <div
+        className="connect__subscribe"
+      >
+        <h2 className="connect__header">
+          {text.connect.subscribe.header}
+        </h2>
+        <p className="connect__sub-title">
+          {text.connect.subscribe.subTitle}
+        </p>
+        <MailchimpSubscribe
+          className="connect__mailchimp"
+          url={url}
+        />
+      </div>
     </ScrollAnimation>
   </div>
 )
